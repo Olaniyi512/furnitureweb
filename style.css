@@ -1,0 +1,270 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+/*------ all buttons ------*/
+.carousel-caption a,
+.card a,
+#withUs a,
+#form button,
+#portfolio-container button {
+	border-radius: 20px;
+	font-size: 18px;
+	padding: 10px 20px;
+	border: 2px solid;
+	transition: 0.5s;
+}
+
+.carousel-caption a {
+	margin: 10px;
+	border: 2px solid #ff3333;
+}
+
+.card a {
+	color: #000000;
+	border: 2px solid #ff3333;
+}
+/*-------- end of all button --------*/
+
+.navbar {
+	background-color: rgba(0, 0, 0, 0.6);
+}
+
+.nav-item a {
+	font-size: 20px;
+	margin: 0 10px;
+}
+
+.carousel-item img {
+	filter: blur(1px);
+	opacity: 0.8;
+}
+
+#hero .carousel {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
+}
+
+#hero .carousel-item {
+  width: 100%;
+  height: 100vh;
+}
+
+.carousel-item .carousel-caption {
+	top: 35vh;
+}
+
+#hero .carousel-control-prev, #hero .carousel-control-next,
+#flipCarousel .carousel-control-prev, #flipCarousel .carousel-control-next
+	{
+  width: 8%;
+}
+
+.carousel-control-prev span,
+.carousel-control-next span {
+	padding: 10px;
+	border-radius: 50%;
+	width: 30px;
+	height: 30px;
+}
+
+@media screen and (max-width: 576px) {
+	.carousel-item .carousel-caption {
+		top: 25vh;
+	}
+}
+
+/* -------- About Furniture Section ------*/
+
+#aboutSection h1 {
+	text-align: center;
+}
+
+#aboutSection hr {
+	width: 7%;
+	border: 2px solid #ff3333;
+	border-radius: 10px;
+}
+
+.list-unstyled i {
+	padding-right: 20px;
+	color: #ff3333;
+}
+
+/*-------- Our Services Section -------*/
+#ourServices h1 {
+	text-align: center;
+}
+
+#ourServices hr {
+	width: 7%;
+	border: 2px solid #ff3333;
+	border-radius: 10px;
+}
+
+#ourServices .row {
+	text-align: center;
+}
+
+#servicesItem .col-md {
+	transition: all 0.5s ease-in;
+}
+
+#servicesItem .col-md:hover {
+	padding: 10px;
+	background-color: #ff3333;
+	color: #ffffff;
+	border-radius: 15px;
+	transform: scale(1.1);
+	transition: all 0.6s ease-out;
+}
+
+/*---------- our Team Section -----*/
+#ourTeam h1 {
+	text-align: center;
+}
+
+#ourTeam hr {
+	width: 7%;
+	border: 2px solid #ff3333;
+	border-radius: 10px;
+}
+
+/*-------- working with us ------*/
+#withUs {
+	background: url(img/hero1.jpg) no-repeat center fixed;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+#withUs .row {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+#withImg {
+	background: url(img/bg.jpg) no-repeat center;
+	background-size: cover;
+	height: 450px;
+}
+
+#withImg img {
+	width: 100%;
+	height: 100%;
+}
+
+/*---------- our portfolio Section -----*/
+#ourPortfolio h1 {
+	text-align: center;
+}
+
+#ourPortfolio hr {
+	width: 7%;
+	border: 2px solid #ff3333;
+	border-radius: 10px;
+}
+
+#menu-filters button.filter-active {
+	color: #ffffff;
+	background-color: #ff3333;
+}
+
+.element-item {
+
+}
+
+.gallery-item {
+	overflow: hidden;
+	border-right: 3px solid #ffffff;
+	border-bottom: 3px solid #ffffff;
+}
+
+.gallery-item img {
+	width: 100%;
+	transition: all ease-in-out 0.4s;
+}
+
+.gallery-item img:hover {
+	transform: scale(1.2);
+}
+
+/*------- flip section -------- */
+.flip {
+	background: url(img/app-bg.jpg);
+	padding: 20px;
+}
+
+#flip .carousel {
+	padding: 80px 20px;
+}
+
+#flipText p {
+	color: #ffffff;
+	text-align: center;
+	font-size: 20px;
+	padding: 40px 20px;
+}
+
+.flipIcon {
+	font-size: 30px;
+	text-align: center;
+	color: #ffffff;
+}
+
+.flipIcon i {
+	border-radius: 50%;
+	border: 2px solid #ffffff;
+	padding: 10px 10px;
+}
+
+/*-------- Contact us ---------*/
+#contactUs {
+	padding: 50px 0px;
+}
+
+#contactUs h1 {
+	text-align: center;
+}
+
+#contactUs hr {
+	width: 7%;
+	border: 2px solid #ff3333;
+	border-radius: 10px;
+}
+
+#contactContainer {
+	text-align: center;
+	padding: 30px 0;
+}
+
+.contactIcon i {
+	font-size: 35px;
+	transition: 0.7s;
+	border-radius: 50%;
+	border: 2px solid #000000;
+	padding: 12px 12px;
+}
+
+.contactIcon i:hover {
+	color: #ffffff;
+	transition: 0.7s;
+	background-color: #ff3333;
+}
+
+/*--------- footer section ------*/
+
+.footerIcon i {
+	font-size: 35px;
+	transition: 0.6s;
+	color: #ffffff;
+	padding: 5px;
+}
+
+.footerIcon i:hover {
+	color: #ff3333;
+	transition: all ease 0.6s;
+}
